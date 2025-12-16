@@ -121,93 +121,177 @@ Please enter your command of interest:
 >> run
 
 Starting program execution...
+
 Instruction in hand: N/A
+
 Micro operation in hand T 0 : AR<- PC
+
 Changed: AR
+
 Instruction in hand: 0x3110
+
 Micro operation in hand T 1 : IR <- M[AR], PC <- PC+1
+
 Changed: IR and PC
+
 Instruction in hand: 0x3110
+
 Micro operation in hand T 2 : D0, …, D7 ← Decode IR(12-14), AR ← IR(0-11), I ← IR(15)
+
 Changed: opp_code and AR and I flag
+
 Instruction in hand: 0x3110
+
 Micro operation in hand T 3 : (direct addressing) No operation
+
 Changed: SC
+
 Instruction in hand: 0x3110
+
 Micro operation in hand T 4 : M[AR] <- AC, SC <-0
+
 Changed: Memory and SC
+
 Instruction in hand: N/A
+
 Micro operation in hand T 0 : AR<- PC
+
 Changed: AR
+
 Instruction in hand: 0x7040
+
 Micro operation in hand T 1 : IR <- M[AR], PC <- PC+1
+
 Changed: IR and PC
+
 Instruction in hand: 0x7040
+
 Micro operation in hand T 2 : D0, …, D7 ← Decode IR(12-14), AR ← IR(0-11), I ← IR(15)
+
 Changed: opp_code and AR and I flag
+
 Micro operation in hand T 3 : AC<- shl AC, AC(10)<-E, E<-AC(15)
+
 Instruction in hand: 0x7040
+
 Changed: E flag and AC and SC
+
 Instruction in hand: N/A
+
 Micro operation in hand T 0 : AR<- PC
+
 Changed: AR
+
 Instruction in hand: 0x2110
+
 Micro operation in hand T 1 : IR <- M[AR], PC <- PC+1
+
 Changed: IR and PC
+
 Instruction in hand: 0x2110
+
 Micro operation in hand T 2 : D0, …, D7 ← Decode IR(12-14), AR ← IR(0-11), I ← IR(15)
+
 Changed: opp_code and AR and I flag
+
 Instruction in hand: 0x2110
+
 Micro operation in hand T 3 : (direct addressing) No operation
+
 Changed: SC
+
 Instruction in hand: 0x2110
+
 Micro operation in hand T 4 : DR <- M[AR]
+
 Changed: DR and SC
+
 Instruction in hand: 0x2110
+
 Micro operation in hand T 5 : AC <- DR, SC <- 0
+
 Changed: AC and SC
+
 Instruction in hand: N/A
+
 Micro operation in hand T 0 : AR<- PC
+
 Changed: AR
+
 Instruction in hand: 0x7080
+
 Micro operation in hand T 1 : IR <- M[AR], PC <- PC+1
+
 Changed: IR and PC
+
 Instruction in hand: 0x7080
+
 Micro operation in hand T 2 : D0, …, D7 ← Decode IR(12-14), AR ← IR(0-11), I ← IR(15)
+
 Changed: opp_code and AR and I flag
+
 Micro operation in hand T 3 : AC<- shr AC, AC(15)<-E, E<-AC(0)
+
 Instruction in hand: 0x7080
+
 Changed: E flag and AC and SC
+
 Instruction in hand: N/A
+
 Micro operation in hand T 0 : AR<- PC
+
 Changed: AR
+
 Instruction in hand: 0x7001
+
 Micro operation in hand T 1 : IR <- M[AR], PC <- PC+1
+
 Changed: IR and PC
+
 Instruction in hand: 0x7001
+
 Micro operation in hand T 2 : D0, …, D7 ← Decode IR(12-14), AR ← IR(0-11), I ← IR(15)
+
 Changed: opp_code and AR and I flag
+
 Micro operation in hand T 3 : S<-0
+
 Instruction in hand: 0x7001
+
 Changed: S and SC
 
 Program halted. HLT instruction encountered.
+
 Below is the program profilier!
+
 Below is the profiler of the process: 
+
 The total cycles executed until now is:  23
+
 The total number of instructions executed till now is:  5
+
 The average cycles per instruction (CPI) is:  4.6
+
 The total memory bandwidth until now, which includes number of memory read and writes is:  2
 
 >> show all
 
 DR = 0x0
+
 AR = 0x1
+
 AC = 0x0
+
 IR = 0x7001
+
 PC = 0x105
+
 TR = 0x0
+
 E flag = 0b0
+
 I flag = 0b0
+
 S flag = 0b0
+
 Sequence Counter = 0
